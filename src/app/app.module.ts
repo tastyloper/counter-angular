@@ -2,10 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CounterComponent } from './counter/counter.component';
+import { IncreaseComponent } from './increase/increase.component';
+import { DecreaseComponent } from './decrease/decrease.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterComponent,
+    IncreaseComponent,
+    DecreaseComponent
   ],
   imports: [
     BrowserModule
